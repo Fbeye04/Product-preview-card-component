@@ -55,7 +55,8 @@ Here are the learning points you learned while working on the _Product Preview C
 
 ``html
 <picture>
-<source media=“(min-width: 600px)” srcset=“./images/image-product-desktop.jpg” />
+
+<source media=“(min-width:600px)” srcset=“./images/image-product-desktop.jpg” />
 <img src=“./images/image-product-mobile.jpg” alt=“perfume picture” />
 </picture>
 
